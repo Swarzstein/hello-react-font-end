@@ -1,70 +1,141 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
 
-## Available Scripts
+
+
+  <h3><b>Hello React Front End</b></h3>
+
+</div>
+
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+- [💻 Getting Started](#getting-started)
+  - [Available Scripts](#available-scripts)
+  - [Clone](#clone)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ](#faq)
+- [📝 License](#license)
+
+# 📖 Hello React Front End
+
+Hello React Front End is a a web app for the Hello World project with two apps
+with the [Hello Rails Back End](https://github.com/Swarzstein/hello-react-front-end) as the backend for this app.
+
+## 🛠 Built With <a name="built-with"></a>
+
+React JS
+
+### Tech Stack <a name="tech-stack"></a>
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://webpack.js.org/configuration/">Webpack</a></li>
+  </ul>
+</details>
+
+### Key Features <a name="key-features"></a>
+
+- **Displays a random greeting everytime it loads**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Getting Started
+
+To get a local copy up and running follow these simple example steps.
+
+### Clone <a name="clone"> Setup</a>
+
+Clone this repository to your desired folder:
+
+```sh
+  git clone https://github.com/Swarzstein/hello-react-front-end.git
+```
+To install the necessary dependencies, you should run:
+
+
+```
+npm install
+```
+
+## 🤖 Available Scripts <a name="available-scripts"></a>
 
 In the project directory, you can run:
 
-### `npm start`
+```
+npx eslint "**/*.{js,jsx}" --fix
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To fix all ES Linter errors automatically
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Usage 
 
-### `npm test`
+To run the project, execute the following command:
+```
+  npm start
+``` 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+and run the project [Hello React Front End](https://github.com/Swarzstein/hello-react-front-end)
 
-### `npm run build`
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- AUTHOR -->
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 👥 Author <a name="authors"></a>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+👤 **Juan Zorrilla**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- GitHub: [@Swarzstein](https://github.com/Swarzstein)
+- LinkedIn: [Juan Zorrilla](https://www.linkedin.com/in/juan-a-zorrilla/)
 
-### `npm run eject`
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🔭 Future Features <a name="future-features"></a>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- N/A.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## 🤝 Contributing <a name="contributing"></a>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Contributions, issues, and feature requests are welcome!
+Feel free to check the [issues page](https://github.com/Swarzstein/hello-react-front-end/issues).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Code Splitting
+## ⭐️ Show your support <a name="support"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+If you like this project please let us know
 
-### Analyzing the Bundle Size
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-### Making a Progressive Web App
+Thanks to microverse for the oportunity of this course and my parents who support me through all this journey.
+<br/>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Advanced Configuration
+## ❓ FAQ <a name="faq"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- **Is there any restriction to adapting the app to other purpose?**
 
-### Deployment
+  - No problem.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### `npm run build` fails to minify
+## 📝 License <a name="license"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
